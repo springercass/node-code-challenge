@@ -14,18 +14,18 @@ These endpoints should be created:
   - ▶ returns a list of acronyms, paginated using query parameters
   - ▶ response headers indicate if there are more results
   - ▶ returns all acronyms that fuzzy match against `:search`
-- **`GET /acronym/:acronym`**
-  - ▶ returns the acronym and definition matching `:acronym`
+<!-- X **`GET /acronym/:acronym`**
+X - ▶ returns the acronym and definition matching `:acronym` -->
 - **`GET /random/:count?`**
   - ▶ returns `:count` random acronyms
   - ▶ the acronyms returned should not be adjacent rows from the data
-- **`POST /acronym`**
-  - ▶ receives an acronym and definition strings
-  - ▶ adds the acronym definition to the db
+<!-- X **`POST /acronym`**
+X - ▶ receives an acronym and definition strings
+X - ▶ adds the acronym definition to the db -->
 - **`PUT /acronym/:acronym`**
-  - ▶ receives an acronym and definition strings
+X - ▶ receives an acronym and definition strings
   - ▶ uses an authorization header to ensure acronyms are protected
-  - ▶ updates the acronym definition to the db for `:acronym`
+X - ▶ updates the acronym definition to the db for `:acronym`
 - **`DELETE /acronym/:acronym`**
-  - ▶ deletes `:acronym`
+X - ▶ deletes `:acronym`
   - ▶ uses an authorization header to ensure acronyms are protected
